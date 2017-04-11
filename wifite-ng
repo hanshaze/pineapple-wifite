@@ -180,7 +180,7 @@ if not os.uname()[0].startswith("Linux") and not 'Darwin' in os.uname()[0]:  # O
 # Create temporary directory to work in
 from tempfile import mkdtemp
 
-temp = mkdtemp(prefix='wifite', dir='/tmp/')
+temp = mkdtemp(prefix='wifite', dir='/sd/tmp/')
 if not temp.endswith(os.sep):
     temp += os.sep
 
